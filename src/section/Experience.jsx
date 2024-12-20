@@ -1,6 +1,5 @@
 ﻿import { Canvas } from '@react-three/fiber'
 import React, { Suspense, useState } from 'react'
-
 import { workExperiences } from '../constants'
 import { OrbitControls } from '@react-three/drei'
 import { CanvasLoader } from '../components/CanvasLoader'
