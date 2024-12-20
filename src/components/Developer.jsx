@@ -6,10 +6,10 @@ export function Developer({ animationName='salute', ...props }) {
   const groupRef = useRef();
 
   const { nodes, materials } = useGLTF('/models/animations/developer.glb');
-  const { animations: idleAnimation } = useFBX(`/models/animations/${animationName}.fbx`);
-  idleAnimation[0].name = animationName;
+  const { animations: animation } = useFBX(`/models/animations/${animationName}.fbx`);
+  animation[0].name = animationName;
 
-  const { actions } = useAnimations([idleAnimation[0]], groupRef);
+  const { actions } = useAnimations([animation[0]], groupRef);
 
   useEffect(() => {
     if (actions && actions[animationName]) {
