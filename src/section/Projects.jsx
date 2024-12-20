@@ -78,7 +78,7 @@ export const Projects = () =>
           </div>
 
                   </div>
-          <Canvas style={{ background:'white', borderRadius:'20px',height:''}} >
+          <Canvas style={{ background:'rgba(25,25,25)', borderRadius:'20px',height:''}} >
             <ambientLight intensity={5} />
             <directionalLight position={[10, 20, 5]} intensity={3} />
             <Center>

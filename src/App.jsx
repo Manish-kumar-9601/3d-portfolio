@@ -1,4 +1,6 @@
 import { About } from "./section/About";
+import { Clients } from "./section/Clients";
+import { Experience } from "./section/Experience";
 import { Hero } from "./section/Hero";
 import { Navbar } from "./section/Navbar";
 import { Projects } from "./section/Projects";
@@ -10,6 +12,8 @@ export default function App() {
     <Hero/> 
     <About/>
     <Projects />
+    <Clients />
+    <Experience />
     </h1>
   )
 }

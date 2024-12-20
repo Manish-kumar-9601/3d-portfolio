@@ -69,7 +69,7 @@ body {
 
   /* about section */
   .grid-container {
-    @apply w-full h-full border bg-gray-500/10
+    @apply w-full h-full border bg-gray-500/20
     border-gray-600/20    rounded-lg sm:p-7 p-4 flex flex-col gap-5;
   }
 
@@ -100,7 +100,7 @@ body {
   }
 
   .client-review {
-    @apply rounded-lg md:p-10 p-5 col-span-1 bg-black-300 bg-opacity-50;
+    @apply rounded-lg md:p-10 p-5 col-span-1 bg-white/5 bg-opacity-50;
   }
 
   .client-content {
@@ -121,15 +121,15 @@ body {
   }
 
   .work-content_container {
-    @apply grid grid-cols-[auto_1fr] items-start gap-5  transition-all ease-in-out duration-500 cursor-pointer hover:bg-black-300 rounded-lg sm:px-5 px-2.5;
+    @apply grid grid-cols-[auto_1fr] items-start gap-5  transition-all ease-in-out duration-500 cursor-pointer hover:bg-black/50 rounded-lg sm:px-5 px-2.5;
   }
 
   .work-content_logo {
-    @apply rounded-3xl w-16 h-16 p-2 bg-black-600;
+    @apply rounded-3xl w-16 h-16 p-2 bg-black/70;
   }
 
   .work-content_bar {
-    @apply flex-1 w-0.5 mt-4 h-full bg-black-300 group-hover:bg-black-500 group-last:hidden;
+    @apply flex-1 w-0.5 mt-4 h-full bg-black/50 group-hover:bg-black/50 group-last:hidden;
   }
 
   /* contact section */
@@ -142,7 +142,7 @@ body {
   }
 
   .field-input {
-    @apply w-full bg-black-300 px-5 py-2 min-h-14 rounded-lg placeholder:text-white-500 text-lg text-white-800 shadow-black-200 shadow-2xl focus:outline-none;
+    @apply w-full bg-black/50 px-5 py-2 min-h-14 rounded-lg placeholder:text-white-500 text-lg text-white-800 shadow-black-200 shadow-2xl focus:outline-none;
   }
 
   .field-btn {
@@ -155,7 +155,7 @@ body {
 
   /*  footer */
   .social-icon {
-    @apply w-12 h-12 rounded-full flex justify-center items-center bg-black-300 border border-gray-500/10;
+    @apply w-12 h-12 rounded-full flex justify-center items-center bg-black/50 border border-gray-500/10;
   }
 }
 
